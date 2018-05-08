@@ -1,0 +1,14 @@
+{
+  "name": "euler31",
+  "version": "1.0.0",
+  "description": "In England the currency is made up of pound, £, and pence, p, and there are eight coins in general circulation:",
+  "main": "euler31.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
