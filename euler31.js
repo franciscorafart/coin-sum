@@ -10,7 +10,7 @@ let values = [1,2,5,10,20,50,100,200]
 // }
 
 //for each number loop through the thing starting at one each time,
-let giveOneComb = (ind, values) =>{
+let giveOneComb = (ind, values) => {
     let index = ind
     let reminder = 200
     let res=[0,0,0,0,0,0,0,0]
@@ -20,6 +20,7 @@ let giveOneComb = (ind, values) =>{
         res[index%8]+= div
         console.log(res)
         console.log(reminder)
+        console.log(index)
         index +=1
     }
     if (reminder == 0)
